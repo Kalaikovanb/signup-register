@@ -13,7 +13,7 @@ const Success = () => {
         let user = JSON.parse(sessionStorage.getItem("data"));
 
         if (user === "" || user === null) {
-            navigate("/login");
+            navigate("/Register");
         } else {
             setUser_info(user);
         }

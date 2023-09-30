@@ -40,7 +40,7 @@ function MyForm() {
       errors.push('Please enter the Password');
       toast.error("Please enter the Password");
     }
-    if (!data.email) {
+    if (!data.id) {
       errors.push('Please enter the Email');
       toast.error("Please enter the Email");
     }
@@ -62,7 +62,7 @@ function MyForm() {
       .post('http://localhost:3001/posts', data)
       .then((response) => {
         console.log(response.data);
-        toast.success('Data added successfully!');
+        toast.success('Registerd successfully!');
       })
       .catch((error) => console.error('Error posting data:', error));
     setData({
