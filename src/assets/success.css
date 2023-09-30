@@ -1,0 +1,54 @@
+
+.bg-body-tertiary {
+    background-color: #1abc9c !important; 
+    color: white;
+  }
+  
+
+  .container {
+    margin-top: 20px;
+  }
+  
+
+  .card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .btn-primary {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c0392b; 
+  }
+  
+
+  label {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+
+  h2 {
+    color: #3498db;
+  }
+ 
